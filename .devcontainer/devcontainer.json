@@ -1,0 +1,36 @@
+{
+  "name": "capacitylab-gpu",
+  "build": {
+    "dockerfile": "./Dockerfile",
+    "context": "../.."
+  },
+  "runArgs": [
+    "--name",
+    "${localWorkspaceFolderBasename}-${localEnv:USER}${localEnv:USERNAME}",
+    "--gpus",
+    "all",
+    "--ipc=host",
+    "--shm-size=8g"
+  ],
+  "containerEnv": {
+    "NVIDIA_VISIBLE_DEVICES": "all",
+    "NVIDIA_DRIVER_CAPABILITIES": "compute,utility"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-azuretools.vscode-docker"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/bin/python",
+        "jupyter.notebookFileRoot": "/workspace/capacitylab"
+      }
+    }
+  },
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/capacitylab,type=bind",
+  "workspaceFolder": "/workspace/capacitylab",
+  "postCreateCommand": "bash -lc \"tr -d '\\r' < .devcontainer/post-create.sh | bash\"",
+  "remoteUser": "root"
+}

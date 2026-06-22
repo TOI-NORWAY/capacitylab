@@ -1,0 +1,11 @@
+.git
+ny_data
+traffic_flow_gui/saved_models
+*.pth
+*.pt
+*.pkl
+*.png
+*.csv
+*.ipynb
+__pycache__/
+*.pyc
