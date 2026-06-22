@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v2.dtd">
+<network name="Toy network based on the orignal RTM23+ network.">
+
+	<attributes>
+		<attribute name="coordinateReferenceSystem" class="java.lang.String">epsg:32633</attribute>
+	</attributes>
+<!-- ====================================================================== -->
+
+	<nodes>
+		<node id="1300308" x="266222.600002882" y="6648657.900122967" >
+		</node>
+		<node id="1300825" x="273913.80000278883" y="6652692.900122955" >
+		</node>
+		<node id="1300946" x="259858.40000296052" y="6649335.700122959" >
+		</node>
+		<node id="1301978" x="264580.0141029047" y="6651958.167922957" >
+		</node>
+		<node id="1302415" x="261122.44850294682" y="6653217.410222952" >
+		</node>
+		<node id="1302460" x="259675.02470296613" y="6652803.377922949" >
+		</node>
+		<node id="1303299" x="263352.5717029185" y="6649818.830222958" >
+		</node>
+		<node id="1321881" x="263306.800002917" y="6648325.1501229685" >
+		</node>
+		<node id="1322158" x="266212.37130288145" y="6650286.25532296" >
+		</node>
+		<node id="1328302" x="258640.00000297758" y="6652231.500122948" >
+		</node>
+		<node id="1331299" x="262280.1740029313" y="6651879.382122955" >
+		</node>
+		<node id="400100121" x="266813.70000286784" y="6636186.600123019" >
+		</node>
+		<node id="400101499" x="265556.28800288367" y="6636199.618823018" >
+		</node>
+		<node id="400108597" x="261326.7900029292" y="6621715.850123071" >
+		</node>
+		<node id="400120538" x="255585.20000301377" y="6649445.200122954" >
+		</node>
+		<node id="400125711" x="249814.9300030822" y="6647477.920122965" >
+		</node>
+		<node id="400132818" x="248102.6000030893" y="6622836.800123059" >
+		</node>
+		<node id="400151309" x="301568.2800024403" y="6633788.710123046" >
+		</node>
+		<node id="400167299" x="279929.30000271497" y="6653183.30012296" >
+		</node>
+		<node id="400198420" x="293951.7275025622" y="6693865.290622793" >
+		</node>
+		<node id="400252253" x="213961.0670035148" y="6636610.2471229825" >
+		</node>
+		<node id="400257458" x="234523.8100032627" y="6633731.010123009" >
+		</node>
+		<node id="400276316" x="260832.60710297" y="6689055.128422797" >
+		</node>
+		<node id="4009620" x="255171.400002989" y="6596521.300123165" >
+		</node>
+		<node id="4059626" x="236531.56640326587" y="6680212.383322822" >
+		</node>
+	</nodes>
+
+<!-- ====================================================================== -->
+
+	<links capperiod="01:00:00" effectivecellsize="7.5" effectivelanewidth="3.75">
+		<link id="13003081303299" from="1300308" to="1303299" length="3095.94" freespeed="25.0" capacity="884.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13003081321881" from="1300308" to="1321881" length="2934.73" freespeed="25.0" capacity="893.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13003081322158" from="1300308" to="1322158" length="1628.39" freespeed="25.0" capacity="1002.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="1300308400100121" from="1300308" to="400100121" length="12485.3" freespeed="25.0" capacity="1954.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13008251301978" from="1300825" to="1301978" length="9362.66" freespeed="25.0" capacity="2634.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13008251322158" from="1300825" to="1322158" length="8068.7" freespeed="25.0" capacity="961.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="1300825400167299" from="1300825" to="400167299" length="6035.46" freespeed="25.0" capacity="806.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="1300825400276316" from="1300825" to="400276316" length="38643.62" freespeed="25.0" capacity="1467.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13009461303299" from="1300946" to="1303299" length="3527.41" freespeed="25.0" capacity="301.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13009461321881" from="1300946" to="1321881" length="3593.42" freespeed="25.0" capacity="779.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="1300946400120538" from="1300946" to="400120538" length="4274.6" freespeed="25.0" capacity="1027.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13019781300825" from="1301978" to="1300825" length="9362.66" freespeed="25.0" capacity="1637.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13019781302415" from="1301978" to="1302415" length="3679.74" freespeed="25.0" capacity="1450.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13019781331299" from="1301978" to="1331299" length="2301.19" freespeed="25.0" capacity="983.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13024151301978" from="1302415" to="1301978" length="3679.74" freespeed="25.0" capacity="1606.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13024151302460" from="1302415" to="1302460" length="1505.48" freespeed="25.0" capacity="1731.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13024601302415" from="1302460" to="1302415" length="1505.48" freespeed="25.0" capacity="2989.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13024601328302" from="1302460" to="1328302" length="1182.51" freespeed="25.0" capacity="1702.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13024601331299" from="1302460" to="1331299" length="2764.16" freespeed="25.0" capacity="835.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13032991300308" from="1303299" to="1300308" length="3095.94" freespeed="25.0" capacity="2104.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13032991300946" from="1303299" to="1300946" length="3527.41" freespeed="25.0" capacity="1236.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13032991328302" from="1303299" to="1328302" length="5294.27" freespeed="25.0" capacity="422.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13032991331299" from="1303299" to="1331299" length="2322.91" freespeed="25.0" capacity="2338.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13218811300308" from="1321881" to="1300308" length="2934.73" freespeed="25.0" capacity="933.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13218811300946" from="1321881" to="1300946" length="3593.42" freespeed="25.0" capacity="405.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="1321881400101499" from="1321881" to="400101499" length="12332.42" freespeed="25.0" capacity="1544.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13221581300308" from="1322158" to="1300308" length="1628.39" freespeed="25.0" capacity="843.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13221581300825" from="1322158" to="1300825" length="8068.7" freespeed="25.0" capacity="919.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13221581331299" from="1322158" to="1331299" length="4242.67" freespeed="25.0" capacity="2611.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13283021302460" from="1328302" to="1302460" length="1182.51" freespeed="25.0" capacity="1926.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13283021303299" from="1328302" to="1303299" length="5294.27" freespeed="25.0" capacity="1093.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="1328302400120538" from="1328302" to="400120538" length="4134.64" freespeed="25.0" capacity="740.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13312991301978" from="1331299" to="1301978" length="2301.19" freespeed="25.0" capacity="1175.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13312991302460" from="1331299" to="1302460" length="2764.16" freespeed="25.0" capacity="1127.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13312991303299" from="1331299" to="1303299" length="2322.91" freespeed="25.0" capacity="1816.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="13312991322158" from="1331299" to="1322158" length="4242.67" freespeed="25.0" capacity="828.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4001001211300308" from="400100121" to="1300308" length="12485.3" freespeed="25.0" capacity="2199.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400100121400101499" from="400100121" to="400101499" length="1257.48" freespeed="25.0" capacity="1102.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400100121400108597" from="400100121" to="400108597" length="15476.07" freespeed="25.0" capacity="377.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4001014991321881" from="400101499" to="1321881" length="12332.42" freespeed="25.0" capacity="1419.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400101499400100121" from="400101499" to="400100121" length="1257.48" freespeed="25.0" capacity="1108.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400101499400108597" from="400101499" to="400108597" length="15088.68" freespeed="25.0" capacity="832.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400108597400100121" from="400108597" to="400100121" length="15476.07" freespeed="25.0" capacity="859.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400108597400101499" from="400108597" to="400101499" length="15088.68" freespeed="25.0" capacity="1763.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400108597400132818" from="400108597" to="400132818" length="13271.61" freespeed="25.0" capacity="439.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4001085974009620" from="400108597" to="4009620" length="25935.58" freespeed="25.0" capacity="1443.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4001205381300946" from="400120538" to="1300946" length="4274.6" freespeed="25.0" capacity="336.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4001205381328302" from="400120538" to="1328302" length="4134.64" freespeed="25.0" capacity="704.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400120538400125711" from="400120538" to="400125711" length="6096.41" freespeed="25.0" capacity="570.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400125711400120538" from="400125711" to="400120538" length="6096.41" freespeed="25.0" capacity="1395.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400125711400132818" from="400125711" to="400132818" length="24700.54" freespeed="25.0" capacity="2367.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400125711400257458" from="400125711" to="400257458" length="20562.0" freespeed="25.0" capacity="1249.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4001257114059626" from="400125711" to="4059626" length="35326.94" freespeed="25.0" capacity="1160.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400132818400108597" from="400132818" to="400108597" length="13271.61" freespeed="25.0" capacity="710.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400132818400125711" from="400132818" to="400125711" length="24700.54" freespeed="25.0" capacity="2173.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400132818400257458" from="400132818" to="400257458" length="17408.83" freespeed="25.0" capacity="629.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400151309400167299" from="400151309" to="400167299" length="29058.49" freespeed="25.0" capacity="2764.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4001672991300825" from="400167299" to="1300825" length="6035.46" freespeed="25.0" capacity="1720.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400167299400151309" from="400167299" to="400151309" length="29058.49" freespeed="25.0" capacity="1121.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400167299400198420" from="400167299" to="400198420" length="43030.84" freespeed="25.0" capacity="397.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400198420400167299" from="400198420" to="400167299" length="43030.84" freespeed="25.0" capacity="2893.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400252253400257458" from="400252253" to="400257458" length="20763.34" freespeed="25.0" capacity="812.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400257458400125711" from="400257458" to="400125711" length="20562.0" freespeed="25.0" capacity="502.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400257458400132818" from="400257458" to="400132818" length="17408.83" freespeed="25.0" capacity="1417.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="400257458400252253" from="400257458" to="400252253" length="20763.34" freespeed="25.0" capacity="400.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4002574584059626" from="400257458" to="4059626" length="46524.72" freespeed="25.0" capacity="1746.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4002763161300825" from="400276316" to="1300825" length="38643.62" freespeed="25.0" capacity="1036.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4009620400108597" from="4009620" to="400108597" length="25935.58" freespeed="25.0" capacity="516.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4059626400125711" from="4059626" to="400125711" length="35326.94" freespeed="25.0" capacity="338.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+		<link id="4059626400257458" from="4059626" to="400257458" length="46524.72" freespeed="25.0" capacity="875.0" permlanes="2.0" oneway="1" modes="car" >
+		</link>
+	</links>
+
+<!-- ====================================================================== -->
+
+</network>

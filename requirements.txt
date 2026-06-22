@@ -1,0 +1,50 @@
+# Data Manipulation & Analysis
+pandas>=1.5.0,<2.2.0
+numpy>=1.21.0,<2.0.0
+pyarrow>=10.0.0
+polars>=0.19.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+xgboost>=1.7.0
+lightgbm>=3.3.0
+
+# Deep Learning
+torch>=1.13.0
+torchvision>=0.14.0
+torchaudio>=0.13.0
+
+# Scientific Computing
+scipy>=1.7.0
+statsmodels>=0.13.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Jupyter & Notebooks
+jupyter>=1.0.0
+jupyterlab>=3.5.0
+ipython>=7.30.0
+ipywidgets>=7.6.0
+
+# Utilities
+tqdm>=4.60.0
+requests>=2.25.0
+python-dotenv>=0.19.0
+pyyaml>=5.4.0
+psutil>=5.9.0
+
+# Data formats
+openpyxl>=3.0.0
+xlrd>=2.0.0
+h5py>=3.0.0
+
+# Optional: Hyperparameter tuning
+optuna>=2.10.0
+
+# Optional: Explainability
+shap>=0.40.0
+lime>=0.2.0
+
